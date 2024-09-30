@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="pm" class="com.spring.gov.PrimeMinister"></bean>
+    <bean id="army" class="com.spring.Impl.IndianArmy"></bean>
+    <bean id="navy" class="com.spring.Impl.IndianNavy"></bean>
+    
+
+</beans>
